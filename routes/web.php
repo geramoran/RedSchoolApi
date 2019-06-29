@@ -51,3 +51,6 @@ Route::resource('nivels', 'nivelController');
 Route::resource('escuelaHasNivels', 'escuela_has_nivelController');
 
 Route::resource('escuelas', 'escuelaController');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

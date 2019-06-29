@@ -18,38 +18,38 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::resource('typemedia', 'typemediaAPIController');
+Route::resource('typemedia', 'typemediaController');
 
-Route::resource('tallers', 'tallerAPIController');
+Route::resource('tallers', 'tallerController');
 
-Route::resource('instalaciones', 'instalacionesAPIController');
+Route::resource('instalaciones', 'instalacionesController');
 
-Route::resource('tags', 'tagsAPIController');
+Route::resource('tags', 'tagsController');
 
-Route::resource('puntosfuertes', 'puntosfuertesAPIController');
+Route::resource('puntosfuertes', 'puntosfuertesController');
 
-Route::resource('reconocimientos', 'reconocimientosAPIController');
+Route::resource('reconocimientos', 'reconocimientosController');
 
-Route::resource('nivelatributos', 'nivelatributosAPIController');
+Route::resource('nivelatributos', 'nivelatributosController');
 
-Route::resource('subnivelatributos', 'subnivelatributosAPIController');
+Route::resource('subnivelatributos', 'subnivelatributosController');
 
-Route::resource('tipocontactos', 'tipocontactoAPIController');
+Route::resource('tipocontactos', 'tipocontactoController');
 
-Route::resource('cuotas', 'cuotaAPIController');
+Route::resource('cuotas', 'cuotaController');
 
-Route::resource('media', 'mediaAPIController');
+Route::resource('media', 'mediaController');
 
-Route::resource('contactos', 'contactoAPIController');
+Route::resource('contactos', 'contactoController');
 
-Route::resource('taller_has_escuelas', 'taller_has_escuelaAPIController');
+Route::resource('taller_has_escuelas', 'taller_has_escuelaController');
 
-Route::resource('escuela_has_puntosfuertes', 'escuela_has_puntosfuertesAPIController');
+Route::resource('escuela_has_puntosfuertes', 'escuela_has_puntosfuertesController');
 
-Route::resource('subnivels', 'subnivelAPIController');
+Route::resource('subnivels', 'subnivelController');
 
-Route::resource('nivels', 'nivelAPIController');
+Route::resource('nivels', 'nivelController');
 
-Route::resource('escuela_has_nivels', 'escuela_has_nivelAPIController');
+Route::resource('escuela_has_nivels', 'escuela_has_nivelController');
 
-Route::resource('escuelas', 'escuelaAPIController');
+Route::resource('escuelas', 'escuelaController');
